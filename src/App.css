@@ -4,9 +4,28 @@
   justify-content: center;
   align-items: center;
 }
+
+.movies {
+  border: 2px solid red;
+  width: 400px;
+  height: 500px;
+  overflow: auto;
+  display: flex;
+}
+
+.movie-items {
+  border: 2px solid blue;
+  width: 250px;
+  height: 200px;
+  background: black;
+  margin-right: 10px;
+  flex-shrink: 0; /* Evita que los elementos se encojan */
+}
+
 main{
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 form{

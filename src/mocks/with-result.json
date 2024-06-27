@@ -55,20 +55,6 @@
             "imdbID": "tt0803093",
             "Type": "movie",
             "Poster": "https://m.media-amazon.com/images/M/MV5BZjI3MTI5ZTYtZmNmNy00OGZmLTlhNWMtNjZiYmYzNDhlOGRkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
-        },
-        {
-            "Title": "The Avengers",
-            "Year": "1961–1969",
-            "imdbID": "tt0054518",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BZWQwZTdjMDUtNTY1YS00MDI0LWFkNjYtZDA4MDdmZjdlMDRlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg"
-        },
-        {
-            "Title": "Avengers Assemble",
-            "Year": "2012–2019",
-            "imdbID": "tt2455546",
-            "Type": "series",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BMTY0NTUyMDQwOV5BMl5BanBnXkFtZTgwNjAwMTA0MDE@._V1_SX300.jpg"
         }
     ],
     "totalResults": "154",
