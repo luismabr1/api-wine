@@ -10,6 +10,7 @@ function useSearch () {
   const isFirstInput = useRef(true)
 
   useEffect(() => {
+    //valido para que el primer render no me valide y lance error de input vacio
     if (isFirstInput.current) {
       isFirstInput.current = search === ''
       return
