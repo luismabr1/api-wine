@@ -1,35 +1,86 @@
 .page{
+padding: 0;
+margin: 0 ;
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none; 
+}
+
+.page::-webkit-scrollbar {
+  display: none;
+}
+
+.movies {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+  min-width: 80vw;
+}
+
+.movies::-webkit-scrollbar {
+  display: none;
+}
+
+.movie {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.movies {
-  border: 2px solid red;
-  width: 400px;
-  height: 500px;
-  overflow: auto;
-  display: flex;
-}
-
-.movie-items {
-  border: 2px solid blue;
-  width: 250px;
-  height: 200px;
+  padding: 0;
+  margin: 0;
   background: black;
-  margin-right: 10px;
+  margin-right: 50px;
+
+} 
+.movie::-webkit-scrollbar {
+  display: none;
+}
+
+ .movie-items {
+  display: grid;
+  background: black;
   flex-shrink: 0; /* Evita que los elementos se encojan */
+  object-fit: contain;
+  width: 270px;
+  margin: 0;
+  padding:0;
+} 
+
+h3, p{
+  margin: 0 !important;
+}
+
+.movie-items img{
+  padding-top: 8px;
+  border-radius: 16px;
 }
 
 main{
   display: flex;
   justify-content: center;
   overflow: hidden;
+  width: 100vw;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+}
+main::-webkit-scrollbar {
+  display: none;
+}
+
+header{
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 
 form{
   align-items: center;
   display: flex;
   justify-content:center;
+  padding:2px;
+
 }

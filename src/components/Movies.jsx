@@ -6,11 +6,13 @@ function ListOfMovies ({movies}) {
           <ul className="movies">
             {
               movies.map(movie=>(
-                <li className="movie-items" key={movie.id}>
-                  <h3>{movie.title}</h3>
-                  <p>{movie.year}</p>
-                  <img src={movie.poster} alt={movie.title} />
-                </li>
+                  <div key={movie.id} className="movie">
+                      <h3>{movie.title}</h3>
+                      <p>{movie.year}</p> 
+                      <li className="movie-items" >
+                        <img src={movie.poster} alt={movie.title} />
+                      </li>
+                  </div>
               ))
             }
           </ul>
